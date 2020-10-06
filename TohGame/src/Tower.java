@@ -14,11 +14,11 @@ public class Tower {
         small.draw();
 
         // draw the medium disk
-        Disk medium = new Disk(8);
+        Disk medium = new Disk(6);
         medium.draw();
 
         // draw the large disk
-        Disk large = new Disk(12);
+        Disk large = new Disk(8);
         large.draw();
         
         
@@ -36,7 +36,7 @@ public class Tower {
 	public void drawBase()
 	
 	{
-	 System.out.println("  ------------------");
+	 System.out.println(" ______________ ");
 	}
 	
 	public void drawTitile()

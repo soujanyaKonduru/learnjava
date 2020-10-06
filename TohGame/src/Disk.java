@@ -11,7 +11,7 @@ public class Disk {
 	public void draw() {
 		for (int i=0;i<=size;i++)
 		{
-			System.out.print("_"); // print on the same line
+			System.out.print("*"); // print on the same line
 			
 		}
 		
